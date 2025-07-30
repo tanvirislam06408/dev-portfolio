@@ -128,5 +128,34 @@ main{
  }
 main section{
     margin-top:130px ;
-    margin-bottom:130px ;
+    margin-bottom:130px}
+.resume-cointainer{
+    display: flex;
+    gap: 24px;
+}
+.exprience-description{
+    color:rgb(117, 117, 117) ;
+}
+.sub-title{
+    font-size: 20px;
+    color:rgb(117, 117, 117);
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-culmn{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    display: block;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
