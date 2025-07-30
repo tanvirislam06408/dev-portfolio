@@ -49,6 +49,9 @@ nav li a{
      text-decoration: none;
      font-size: 20px;
 }
+.secend-bg{
+    background-color: #FFF8F3;
+}
 .btn-primary{
     font-weight: bold;
     background-color: #FD6E0A;
@@ -56,6 +59,16 @@ nav li a{
     border-radius: 5px;
     padding: 18px 35px;
     border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+.section-description{
+
+    font-size: 18px;
+    color: rgb(117, 117, 117);
 }
 .ww{
     font-weight: bold;
@@ -79,3 +92,22 @@ nav li a{
 .baner-conntent{
     max-width: 580px;
 }    
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+     margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 700px;
+}
