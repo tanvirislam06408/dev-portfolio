@@ -60,6 +60,9 @@ nav li a{
     padding: 18px 35px;
     border: none;
 }
+.text-center{
+    text-align: center;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -110,4 +113,20 @@ main{
 }
 .item-description{
     font-weight: 700px;
+}
+.skill-cointainer{
+    display: flex;
+    gap: 24px;
+}
+/* .skill-description{
+    padding: 30px 104px 33px 30px;
+} */
+ .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+ }
+main section{
+    margin-top:130px ;
+    margin-bottom:130px ;
 }
